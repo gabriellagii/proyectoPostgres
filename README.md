@@ -37,6 +37,8 @@ Proyecto final de curso en base de datos Postgres Avanzado
 ## 📈 Optimizando consultas
 
 ` explain analyze select * from gps.tbl_ubicacion; `
+
+![antes](imagenes/analize.jpg)
 ## Preparando un proceso de réplica y alta disponibilidad
 
 ## Preparando el monitoreo
