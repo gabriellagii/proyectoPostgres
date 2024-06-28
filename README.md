@@ -112,6 +112,9 @@ CREATE INDEX ON gps.tbl_ubicacion(id_ubicacion);
 
 ## Preparando un proceso de réplica y alta disponibilidad
 
+De acuerdo a la concurrencia y escritura en el servidor de  base de datos,  es crucial la disponibilidad, realizando respaldos, diarios, semanales o mensuales,
+se recomienda crear espejos o replicas que son copias exactas del servidor, para evitar perdidas de la informacion, en caso de un desastre o interrupcion en el servicio del servidor principal.
+
 ## Preparando el monitoreo
 
 ## Migración de datos
