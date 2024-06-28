@@ -34,6 +34,8 @@ Proyecto final de curso en base de datos Postgres Avanzado
 
 ## 🔐 Creando una copia de seguridad
 
+![respaldo](imagenes/respaldo.PNG)
+
 ## 📈 Optimizando consultas
 
 ` explain analyze select * from gps.tbl_ubicacion; `
