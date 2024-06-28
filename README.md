@@ -1,5 +1,5 @@
 # proyectoPostgres
-Proyecto final de curso en base de datos Postgres Avanzado
+Se requiere monitorear y visualizar las ubicaciones de objetivos (dispositivos gps).
 
 ## 👧 Authors
 
