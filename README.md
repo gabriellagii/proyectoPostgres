@@ -1,5 +1,5 @@
 # proyectoPostgres
-Proyecto final de curso en base de datos Postgres Avanzado
+Se requiere monitorear y visualizar las ubicaciones de objetivos (dispositivos gps).
 
 ## 👧 Authors
 
@@ -22,7 +22,8 @@ Proyecto final de curso en base de datos Postgres Avanzado
 
 ## 👨 Gestión de usuarios
 
-` CREATE USER superUsuario WITH PASSWORD '123456' 
+```bash
+ CREATE USER superUsuario WITH PASSWORD '123456' 
   ALTER USER superUsuario WITH 
     LOGIN
     SUPERUSER
@@ -30,9 +31,12 @@ Proyecto final de curso en base de datos Postgres Avanzado
     CREATEDB
     CREATEROLE
     REPLICATION
-    BYPASSRLS; `
+    BYPASSRLS;
+```
 
 ## 🔐 Creando una copia de seguridad
+
+![respaldo](imagenes/resoaldo.PNG)
 
 ## 📈 Optimizando consultas
 
