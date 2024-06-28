@@ -125,5 +125,10 @@ De acuerdo a la concurrencia y escritura en el servidor de  base de datos,  es c
 se recomienda crear espejos o replicas que son copias exactas del servidor, para evitar perdidas de la informacion, en caso de un desastre o interrupcion en el servicio del servidor principal.
 
 ## Preparando el monitoreo
+```bash
+SELECT * FROM pg_stat_activity;
+```
+![index](imagenes/monitoreo.PNG)
+
 
 ## Migración de datos
