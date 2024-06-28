@@ -2,6 +2,7 @@
 Se requiere monitorear y visualizar las ubicaciones de objetivos (dispositivos gps).
 
 ## 👧 Authors
+Gabriela García Mendoza
 
 - [@gabriellagii](https://www.github.com/gabriellagii) 🌻
 
