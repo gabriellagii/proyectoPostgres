@@ -135,4 +135,8 @@ SELECT * FROM pg_stat_database;
 ```
 ![index](imagenes/monitoreo1.PNG)
 
+```bash
+ANALYZE gps.tbl_ubicacion;
+```
+![index](imagenes/analyze1.PNG)
 ## Migración de datos
