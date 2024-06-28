@@ -130,5 +130,9 @@ SELECT * FROM pg_stat_activity;
 ```
 ![index](imagenes/monitoreo.PNG)
 
+```bash
+SELECT * FROM pg_stat_database;
+```
+![index](imagenes/monitoreo1.PNG)
 
 ## Migración de datos
