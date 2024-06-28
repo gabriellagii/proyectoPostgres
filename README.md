@@ -119,6 +119,17 @@ ORDER BY conteo DESC;
 ```
 ![index](imagenes/conteo_fechas.PNG)
 
+```bash
+SELECT b.imei, EXTRACT(HOUR FROM hora_ubicacion) AS hora, COUNT(*) AS conteo
+FROM gps.tbl_ubicacion u
+JOIN gps.tbl_bracelet b
+ON u.id_bracelet = b.id_bracelet
+GROUP BY hora,imei
+ORDER BY conteo DESC
+LIMIT 1;
+```
+![consulta2](imagenes/consulta2.PNG)
+
 ## Preparando un proceso de réplica y alta disponibilidad
 
 De acuerdo a la concurrencia y escritura en el servidor de  base de datos,  es crucial la disponibilidad, realizando respaldos diarios, semanales o mensuales,
