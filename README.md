@@ -34,7 +34,7 @@ Proyecto final de curso en base de datos Postgres Avanzado
 
 ## 🔐 Creando una copia de seguridad
 
-![respaldo](imagenes/respaldo.PNG)
+![respaldo](imagenes/resoaldo.PNG)
 
 ## 📈 Optimizando consultas
 
