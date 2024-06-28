@@ -55,6 +55,8 @@ GRANT createdb TO usersimple;
     BYPASSRLS;
 ```
 
+![nuevo_super](imagenes/nuevo_super.PNG)
+
 ## 🔐 Creando una copia de seguridad
 
 ![respaldo](imagenes/resoaldo.PNG)
