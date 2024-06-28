@@ -68,6 +68,10 @@ GRANT createdb TO usersimple;
 ![antes](imagenes/analyze.jpeg)
 
 ![despues](imagenes/despues.jpeg)
+
+```bash
+CREATE INDEX ON gps.tbl_ubicacion(id_ubicacion);
+```
 ## Preparando un proceso de réplica y alta disponibilidad
 
 ## Preparando el monitoreo
