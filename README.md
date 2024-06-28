@@ -8,7 +8,7 @@ Proyecto final de curso en base de datos Postgres Avanzado
 ## 📝 Obtención de datos
 
 - Se crea la base de datos `monitoreoGps` y el esquema `gps`:
-- 
+
 
 ## 💻 Configuración del entorno SQL
 
