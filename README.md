@@ -24,6 +24,23 @@ Se requiere monitorear y visualizar las ubicaciones de objetivos (dispositivos g
 ![Entidad-Relacion](imagenes/entidad_relacion.PNG)
 
 ## 👨 Gestión de usuarios
+```bash
+CREATE ROLE superadmon LOGIN PASSWORD 'root15' SUPERUSER;
+
+CREATE ROLE createdb LOGIN PASSWORD 'rootdb' CREATEDB;//--ROL PARA SOLO CREAR BASE DE DATOS
+
+CREATE ROLE usersimple LOGIN PASSWORD 'user123';//--ROL USUARIO SIMPLE
+
+ALTER ROLE createdb CREATEROLE; //--ROL DE CRAEAR ROLES
+
+CREATE DATABASE prueba;
+
+SET ROL usersimple;
+
+GRANT createdb TO usersimple;
+
+\du //--- es para ver los roles creados
+```
 
 ```bash
  CREATE USER superUsuario WITH PASSWORD '123456' 
