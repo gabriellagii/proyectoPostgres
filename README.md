@@ -72,6 +72,8 @@ GRANT createdb TO usersimple;
 ```bash
 CREATE INDEX ON gps.tbl_ubicacion(id_ubicacion);
 ```
+![index](imagenes/index.PNG)
+
 ## Preparando un proceso de réplica y alta disponibilidad
 
 ## Preparando el monitoreo
