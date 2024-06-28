@@ -9,6 +9,8 @@ Se requiere monitorear y visualizar las ubicaciones de objetivos (dispositivos g
 
 ## 📝 Obtención de datos
 
+Se tiene un archivo .xls con la información que se requiere para crear la base de datos.
+
 ![Entidad-Relacion](imagenes/datos.PNG)
 
 - Se crea la base de datos `monitoreoGps` y el esquema `gps`:
