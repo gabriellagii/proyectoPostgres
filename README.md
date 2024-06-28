@@ -41,6 +41,7 @@ GRANT createdb TO usersimple;
 
 \du //--- es para ver los roles creados
 ```
+![lista_roles](imagenes/lista_roles.PNG)
 
 ```bash
  CREATE USER superUsuario WITH PASSWORD '123456' 
