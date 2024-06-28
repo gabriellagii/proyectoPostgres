@@ -150,4 +150,6 @@ SELECT * FROM pg_stat_database;
 ANALYZE gps.tbl_ubicacion;
 ```
 ![analyse](imagenes/analyse1.PNG)
+
 ## Migración de datos
+La migración de bases de datos implica transferir datos de una base de datos a otra. 
