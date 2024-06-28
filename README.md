@@ -14,7 +14,7 @@ Proyecto final de curso en base de datos Postgres Avanzado
 
 ## ✏️ Diseño de la base de datos
 
-Se crea 
+1M (un dispositivo a muchas ubicaciones)
 ![Entidad-Relacion](imagenes/entidad_relacion.PNG)
 
 ## 👨 Gestión de usuarios
