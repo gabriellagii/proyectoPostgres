@@ -22,6 +22,17 @@ Proyecto final de curso en base de datos Postgres Avanzado
 
 ## 👨 Gestión de usuarios
 
+`CREATE USER superUsuario WITH PASSWORD '123456' 
+
+ALTER USER superUsuario WITH 
+  LOGIN
+  SUPERUSER
+  INHERIT
+  CREATEDB
+  CREATEROLE
+  REPLICATION
+  BYPASSRLS;`
+
 ## 🔐 Creando una copia de seguridad
 
 ## 📈 Optimizando consultas
