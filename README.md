@@ -90,6 +90,7 @@ GRANT createdb TO usersimple;
     REPLICATION
     BYPASSRLS;
 ```
+![lista_roles](imagenes/lista_roles.PNG)
 
 ![nuevo_super](imagenes/nuevo_super.PNG)
 
@@ -109,6 +110,14 @@ CREATE INDEX ON gps.tbl_ubicacion(id_ubicacion);
 ![index](imagenes/index.PNG)
 
 ![despues](imagenes/despues.jpeg)
+
+```bash
+SELECT fecha_ubicacion, count(*) AS conteo
+FROM gps.tbl_ubicacion
+GROUP BY fecha_ubicacion
+ORDER BY conteo DESC;
+```
+![index](imagenes/conteo_fechas.PNG)
 
 ## Preparando un proceso de réplica y alta disponibilidad
 
