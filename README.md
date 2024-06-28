@@ -7,6 +7,8 @@ Proyecto final de curso en base de datos Postgres Avanzado
 
 ## 📝 Obtención de datos
 
+![Entidad-Relacion](imagenes/datos.PNG)
+
 - Se crea la base de datos `monitoreoGps` y el esquema `gps`:
 
 
@@ -14,7 +16,8 @@ Proyecto final de curso en base de datos Postgres Avanzado
 
 ## ✏️ Diseño de la base de datos
 
-1M (un dispositivo a muchas ubicaciones)
+- 1M (un dispositivo a muchas ubicaciones)
+  
 ![Entidad-Relacion](imagenes/entidad_relacion.PNG)
 
 ## 👨 Gestión de usuarios
