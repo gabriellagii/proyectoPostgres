@@ -10,7 +10,7 @@ Proyecto final de curso en base de datos Postgres Avanzado
 ## 💻 Configuración del entorno SQL
 
 ## ✏️ Diseño de la base de datos
-![Entidad-Relacion](imagenes\entidad_relacion.jpg)
+![Entidad-Relacion](imagenes\entidad_relacion.png)
 
 ## 👨 Gestión de usuarios
 
