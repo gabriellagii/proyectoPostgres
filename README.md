@@ -13,6 +13,7 @@ Se requiere monitorear y visualizar las ubicaciones de objetivos (dispositivos g
 
 
 ## 💻 Configuración del entorno SQL
+![postgres](imagenes/postgres.PNG)
 
 ## ✏️ Diseño de la base de datos
 
